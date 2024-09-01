@@ -1,0 +1,303 @@
+ [
+    {
+        "question": "Inside which HTML element do we put the JavaScript??",
+        "choice1": "<script>",
+        "choice2": "<javascript>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 1
+    },
+    {
+        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        "choice1": "<script href='xxx.js'>",
+        "choice2": "<script name='xxx.js'>",
+        "choice3": "<script src='xxx.js'>",
+        "choice4": "<script file='xxx.js'>",
+        "answer": 3
+    },
+    {
+        "question": " How do you write 'Hello World' in an alert box?",
+        "choice1": "msgBox('Hello World');",
+        "choice2": "alertBox('Hello World');",
+        "choice3": "msg('Hello World');",
+        "choice4": "alert('Hello World');",
+        "answer": 4
+    },
+    {
+        "question": "How do you write 'Hello World' in an alert box?",
+        "choice1": "msgBox('Hello World');",
+        "choice2": "alertBox('Hello World');",
+        "choice3": "msg('Hello World');",
+        "choice4": "alert('Hello World');",
+        "answer": 4
+    },
+
+    {
+        "question": "Which of the following is used to declare a variable in JavaScript?",
+        "choice1": "let",
+        "choice2": "var",
+        "choice3": "const",
+        "choice4": "All of the above",
+        "answer": 4
+    },
+
+    {
+        "question": "What is the correct syntax for creating a function in JavaScript?",
+        "choice1": "function: myFunction()",
+        "choice2": "function = myFunction()",
+        "choice3": "function myFunction()",
+        "choice4": "myFunction(): function",
+        "answer": 3
+    },
+
+    {
+        "question": "How do you add a comment in JavaScript?",
+        "choice1": "//This is a comment",
+        "choice2": "<!--This is a comment-->",
+        "choice3": "/This is a comment/",
+        "choice4": "#This is a comment",
+        "answer": 1
+    },
+
+    {
+        "question": "What is the correct way to write a JavaScript array?",
+        "choice1": "var colors = (1:'red', 2:'green', 3:'blue')",
+        "choice2": "var colors = ['red', 'green', 'blue']",
+        "choice3": "var colors = 'red', 'green', 'blue'",
+        "choice4": "var colors = {1:'red', 2:'green', 3:'blue'}",
+        "answer": 2
+    },
+
+    {
+        "question": "Which method is used to remove the last element from an array in JavaScript?",
+        "choice1": "pop()",
+        "choice2": "push()",
+        "choice3": "shift()",
+        "choice4": "unshift()",
+        "answer": 1
+    },
+
+    {
+        "question": "What is the result of the following expression: '3' + 2?",
+        "choice1": "5",
+        "choice2": "32",
+        "choice3": "7",
+        "choice4": "undefined",
+        "answer": 2
+    },
+
+    {
+        "question": "What is the correct way to write a JavaScript for loop?",
+        "choice1": "for (i = 0; i <= 5; i++)",
+        "choice2": "for (i <= 5; i++)",
+        "choice3": "for (i = 0; i <= 5)",
+        "choice4": "for (i <= 5)",
+        "answer": 1
+    },
+
+    {
+        "question": "Which operator is used to compare two values for equality in JavaScript?",
+        "choice1": "==",
+        "choice2": "===",
+        "choice3": "!=",
+        "choice4": "!==",
+        "answer": 1
+    },
+
+    {
+        "question": "What is the output of the following code: console.log(typeof([]));",
+        "choice1": "array",
+        "choice2": "object",
+        "choice3": "string",
+        "choice4": "undefined",
+        "answer": 3
+    },
+    {
+        "question": "What is the output of the following code: console.log(2 + '2');",
+        "choice1": "4",
+        "choice2": "22",
+        "choice3": "NaN",
+        "choice4": "undefined",
+        "answer": 2
+    },
+
+    {
+        "question": "Which method is used to add new elements to the end of an array in JavaScript?",
+        "choice1": "push()",
+        "choice2": "pop()",
+        "choice3": "shift()",
+        "choice4": "unshift()",
+        "answer": 1
+    },
+
+    {
+        "question": "What is the correct way to access the length of a string in JavaScript?",
+        "choice1": "string.length()",
+        "choice2": "string.length",
+        "choice3": "string.size",
+        "choice4": "length(string)",
+        "answer": 2
+    },
+
+    {
+        "question": "What is the result of the following expression: 10 / 0;",
+        "choice1": "0",
+        "choice2": "10",
+        "choice3": "Infinity",
+        "choice4": "NaN",
+        "answer": 3
+    },
+
+    {
+        "question": "Which keyword is used to define a block of code in JavaScript?",
+        "choice1": "block",
+        "choice2": "code",
+        "choice3": "function",
+        "choice4": "scope",
+        "answer": 3
+    },
+
+    {
+        "question": "What is the correct way to check if a variable is an array in JavaScript?",
+        "choice1": "typeof variable === 'array'",
+        "choice2": "variable.isArray()",
+        "choice3": "Array.isArray(variable)",
+        "choice4": "variable instanceof Array",
+        "answer": 3
+    },
+
+    {
+        "question": "What does the '!=='' operator mean in JavaScript?",
+        "choice1": "Not equal to (strict equality)",
+        "choice2": "Not equal to (loose equality)",
+        "choice3": "Not identical to (strict equality)",
+        "choice4": "Not identical to (loose equality)",
+        "answer": 3
+    },
+
+    {
+        "question": "Which of the following is not a JavaScript data type?",
+        "choice1": "boolean",
+        "choice2": "undefined",
+        "choice3": "character",
+        "choice4": "object",
+        "answer": 3
+    },
+
+    {
+        "question": "What is the correct way to write a JavaScript if statement?",
+        "choice1": "if i = 5",
+        "choice2": "if i == 5 then",
+        "choice3": "if (i === 5)",
+        "choice4": "if (i = 5)",
+        "answer": 3
+    },
+
+    {
+        "question": "What is the output of the following code: console.log(Boolean('false'));",
+        "choice1": "true",
+        "choice2": "false",
+        "choice3": "TypeError",
+        "choice4": "undefined",
+        "answer": 1
+    },
+
+    {
+        "question": "Which method is used to return the index of the first occurrence of a specified element in an array?",
+        "choice1": "findIndex()",
+        "choice2": "indexOf()",
+        "choice3": "searchIndex()",
+        "choice4": "locateIndex()",
+        "answer": 2
+    },
+    {
+        "question": "What is the output of the following code: console.log(3 == '3');",
+        "choice1": "true",
+        "choice2": "false",
+        "choice3": "undefined",
+        "choice4": "TypeError",
+        "answer": 1
+    },
+
+    {
+        "question": "Which method is used to remove the first element from an array in JavaScript?",
+        "choice1": "pop()",
+        "choice2": "push()",
+        "choice3": "shift()",
+        "choice4": "unshift()",
+        "answer": 3
+    },
+
+    {
+        "question": "What is the correct way to round the number 7.25 to the nearest integer?",
+        "choice1": "Math.ceil(7.25)",
+        "choice2": "Math.round(7.25)",
+        "choice3": "Math.floor(7.25)",
+        "choice4": "Math.abs(7.25)",
+        "answer": 2
+    },
+
+    {
+        "question": "Which operator is used to assign a value to a variable in JavaScript?",
+        "choice1": "=",
+        "choice2": "==",
+        "choice3": "===",
+        "choice4": ":=",
+        "answer": 1
+    },
+
+    {
+        "question": "What is the correct way to write a JavaScript if-else statement?",
+        "choice1": "if {condition} then {code} else {code}",
+        "choice2": "if (condition) {code} else {code}",
+        "choice3": "if (condition) {code} elif (condition) {code} else {code}",
+        "choice4": "if (condition) then {code} else {code}",
+        "answer": 2
+    },
+
+    {
+        "question": "What is the output of the following code: console.log(4 % 2);",
+        "choice1": "4",
+        "choice2": "2",
+        "choice3": "1",
+        "choice4": "0",
+        "answer": 4
+    },
+
+    {
+        "question": "Which method is used to convert a string to lowercase in JavaScript?",
+        "choice1": "toLowerCase()",
+        "choice2": "toUpperCase()",
+        "choice3": "lowerCase()",
+        "choice4": "upperCase()",
+        "answer": 1
+    },
+
+    {
+        "question": "What is the correct way to declare a JavaScript object?",
+        "choice1": "var obj = {key: value}",
+        "choice2": "var obj = [key: value]",
+        "choice3": "var obj = {key = value}",
+        "choice4": "var obj = [key = value]",
+        "answer": 1
+    },
+
+    {
+        "question": "Which method is used to return the square root of a number in JavaScript?",
+        "choice1": "Math.sqrt()",
+        "choice2": "Math.pow()",
+        "choice3": "Math.abs()",
+        "choice4": "Math.floor()",
+        "answer": 1
+    },
+
+    {
+        "question": "What is the result of the following expression: Boolean('0');",
+        "choice1": "true",
+        "choice2": "false",
+        "choice3": "0",
+        "choice4": "TypeError",
+        "answer": 1
+    }
+
+]

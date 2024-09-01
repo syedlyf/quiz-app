@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <div class="bg">
+    </div>
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+            <div class="user-box">
+                <input type="username" name="Mdkashif" placeholder="type your Username" id="Username">
+                <label>Username</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="Kashif" placeholder="type your Password" id="password">
+                <label>Password</label>
+            </div>
+            <a onclick="func()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                LOG IN
+            </a>
+            <a href="/index.html" id="login"></a>
+        </form>
+    </div>
+    <script>
+        function func() {
+            var email = document.getElementById("Username").value;
+            var paws = document.getElementById("password").value;
+             
+            if(email=='' && paws=='')  {
+                alert("Enter username and password first...");
+                exit();
+            }
+            
+
+            if(email=='Kashif23@gmail.com' && paws=='Kashif@23')  {
+                alert("Succesfully logged in");
+                window.location.assign("index.html")
+            }  
+            else if(email !=='Kashif23@gmail.com') {
+                alert("Invalid Userbame");
+            }  
+            else {
+                alert("Invalid Password")
+            }
+        }
+            //saif ali
+          /*  if(email==null) {
+                if(paws=="") {
+            
+            if(email=='Kashif23@gmail.com') {
+                if(paws=='Kashif@23')  {
+                    alert("Succesfully logged in");
+                    window.location.assign("index.html")
+                } else {
+                    alert("Invalid Password")
+                }
+            }   else {
+                alert("Invalid Username")
+            } 
+            
+        } else {
+            alert("Password can not be blank")
+        } }
+        else {
+            alert("Username can not be blank")
+        }
+               
+        } */
+    </script>
+    <style>
+        body, html {
+            height:100%;
+            }
+        .bg {
+            display: flex;
+            background-image: url("N3.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:  cover;
+            filter:blur(3px);
+        }
+        
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+body.dark-mode {
+  background-color: black;
+  color: #fff;
+}
+
+.dark {
+  width:3rem;
+  height:3rem;
+  position: fixed;
+  top:10px;
+  left: 300px;
+
+}
